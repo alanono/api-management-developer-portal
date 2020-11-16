@@ -1,0 +1,79 @@
+body {
+    background-color: #f5f5f5;
+}
+
+.bcgkrvidmt {
+    box-shadow: 0 0 2px 0 rgba(64,64,64,.5);
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav-link, .nav-link-active {
+    height: 60px;
+    max-width: 350px;
+    display: inline-block!important;
+}
+
+.collapsible-content {
+    min-width: 230px;
+}
+
+.nav-link-active:after, .nav-link:hover:after {
+    height: 4px;
+    background-color: #003cff!important;
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 0 !important;
+}
+
+.nav-item:last-child a:after {
+    position: absolute;
+    display: inline-block !important;
+    margin-left: 0.255em !important;
+    vertical-align: 0.255em !important;
+    content: "  " !important;
+}
+
+h1:before, h2:before {
+    content: "▼";
+    color: #003cff;
+    position: absolute;
+    top: -40px;
+    left: 30px;
+}
+
+.cmwjhkfdnp:after {
+    content: " ";
+    width: 162px;
+    height: 158px;
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOTEiIGhlaWdodD0iMjgzLjkzMiIgdmlld0JveD0iMCAwIDI5MSAyODMuOTMyIj4NCiAgPHBhdGggaWQ9IkNhbWluaG9fNiIgZGF0YS1uYW1lPSJDYW1pbmhvIDYiIGQ9Ik0xMDYwLjI1OSw3MzIuNTM1VjQ4MS44MTRhMjIuNDg3LDIyLjQ4NywwLDAsMC0yMi40ODMtMjIuNDg1aC0yNTUuMmExMS4zMjIsMTEuMzIyLDAsMCwwLS45NDUsMjIuNkM4MDcuNyw0ODQuMTUsODc5LDQ5NS44MTcsOTUwLjcwNyw1NTYuODIxYzY3LjE0MSw1Ny4xMTgsODcuNjM1LDE1MC43MTgsOTIuMjM3LDE3Ny4yMzdhOC43MjQsOC43MjQsMCwwLDAsMTcuMzE1LTEuNTI0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNzcwLjI1OSAtNDU4LjMyOSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzAwM2NmZiIgc3Ryb2tlLXdpZHRoPSIyIi8+DQo8L3N2Zz4NCg==) 50% no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+li.nav-item.collapsible.expanded > div {
+    display:block !important;
+    width: 100%;
+}
+/*
+.kytgpwipol img{
+    top: 144px;
+    left: 782px;
+    width: 748px;
+    
+}
+
+.kytgpwipol h1 {
+    top: 180px;
+    left: 404px;
+    width: 547px;
+    height: 112px;
+    position: static !important;
+}*/

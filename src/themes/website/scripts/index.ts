@@ -7,3 +7,9 @@
  */
 
 import "./collapsibles";
+
+console.log("executou" + window.location.pathname);
+/* Hack para ignorar a homepage*/
+if(window.location.pathname == "/") {
+    window.location.pathname = "/introducao";
+};

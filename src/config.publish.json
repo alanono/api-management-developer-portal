@@ -1,6 +1,6 @@
 {
     "environment": "publishing",
-    "managementApiUrl": "https://<service-name>.management.azure-api.net",
-    "managementApiAccessToken": "SharedAccessSignature...",
+    "managementApiUrl": "https://alan-apim.management.azure-api.net",
+    "managementApiAccessToken": "SharedAccessSignature integration&202012031206&DkD2w8PWX2jV1T6i+Z5lNaLaL8puUYts7K9MdtWooNkXPIbYlfOT4d5KEaUNYljuJt6mlOI+RyOBrNEaiZvcYw==",
     "useHipCaptcha": false
 }

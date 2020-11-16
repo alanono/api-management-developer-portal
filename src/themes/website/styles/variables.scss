@@ -1,11 +1,11 @@
 /* Breakpoints */
 $breakpoint-xs: 0;
 $breakpoint-sm: 576px;
-$breakpoint-md: 768px;
-$breakpoint-lg: 992px;
-$breakpoint-xl: 1200px;
+$breakpoint-md: 1298px;
+$breakpoint-lg: 1299px;
+$breakpoint-xl: 1300px;
 
-$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px ) !default;
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 1298px, lg: 1299px, xl: 1300px ) !default;
 
 $font-size-base: calc(10px + .8vw);
 $font-size-h6: $font-size-base;
